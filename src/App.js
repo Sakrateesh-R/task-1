@@ -12,7 +12,7 @@ import UserDetail from "./Components/UserDetail";
 import {BrowserRouter as Router,Routes, Route} from "react-router-dom";
 import Navigation from "./Components/Navigation";
 
-const api = "http://localhost:5000/Users";
+const api = "https://future-vision-server.herokuapp.com/Users";
 
 function App() {
   /*const[data, setData] = useState([]);
