@@ -103,7 +103,7 @@ export default function UserDetail(){
             <Button style={{marginTop:"15px"}} onClick={logout}>Logout</Button>
             <Container style={{paddingTop:"25px"}}>
                  <Card>
-                 <h3>Admin user</h3>
+                 <h3>{Username == "Admin_User"  ? "Welcome back Admin": "Welcome Back User"}</h3>
                  { Username == "Admin_User"  ? 
                     accessData.map( (items,index) => (  
                    <Card.Body key={index}>
