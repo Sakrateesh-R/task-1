@@ -9,7 +9,7 @@ import { useParams, useNavigate } from "react-router-dom";
 
 
 export default function UserDetail(){
-    const api= "http://localhost:5000/Users";
+    const api= "https://future-vision-server.herokuapp.com/Users";
     let {Username} = useParams();
     const [isAdmin, setIsAdmin] = useState(false);
     const [accessData, setAccessData] = useState([]);

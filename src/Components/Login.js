@@ -7,7 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import UserDetail from "./UserDetail";
 import { BrowserRouter as Router,Routes,Route,Link, useNavigate } from "react-router-dom";
 
-const api = "http://localhost:5000/Users";
+const api = "https://future-vision-server.herokuapp.com/Users";
 
 export default function Login(){
     const [userSession,setUserSession] = useState({
